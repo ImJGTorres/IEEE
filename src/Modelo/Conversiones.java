@@ -7,7 +7,7 @@ package Modelo;
 public class Conversiones {
 
     public boolean validarNumero(String num) {
-        String caracteresDecimales = "0123456789.";
+        String caracteresDecimales = "0123456789.-";
         for (int i = 0; i < num.length(); i++) {
             char caracter = num.charAt(i);
             if (caracteresDecimales.indexOf(caracter) == -1) {
